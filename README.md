@@ -10,7 +10,23 @@ We will be using Slack to post news and links relevant to the event: you should 
 
 ## Schedule (TODO)
 
-:)
+### Week 1
+![SU-Week1-v1](https://user-images.githubusercontent.com/4578156/176634095-59a122be-5225-42dd-bb61-2cfc923cf7d9.png)
+
+### Week 2
+
+![SU-Week2-v2](https://user-images.githubusercontent.com/4578156/176634104-1bf2d2bf-b8a2-4d59-81de-82ae750d038d.png)
+
+## Link to materials
+
+- CUDA (Day 1, 2 & 3)
+- OpenACC (Day 3 & 4)
+- ISO C++ (Day 4)
+- Kokkos (Day 5)
+- Interactive Supercomputing (Day 6)
+- Python HPC (Day 6)
+- Introduction to Deep Learning (Day 7 & 8)
+- Introduction to Machine Learning and Rapids (Day 9)
 
 ## Obtaining a copy of this repository
 
