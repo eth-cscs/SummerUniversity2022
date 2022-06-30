@@ -22,7 +22,7 @@ We will be using Slack to post news and links relevant to the event: you should 
 - CUDA (Day 1, 2 & 3)
 - OpenACC (Day 3 & 4)
 - ISO C++ (Day 4)
-- Kokkos (Day 5)
+- [Kokkos](https://github.com/eth-cscs/SummerUniversity2022/tree/main/kokkos) (Day 5)
 - Interactive Supercomputing (Day 6)
 - Python HPC (Day 6)
 - Introduction to Deep Learning (Day 7 & 8)
