@@ -8,7 +8,7 @@ Material will be added to the repository throughout the course, which will requi
 
 We will be using Slack to post news and links relevant to the event: you should have received an invitation to join the Summer School Slack workspace.
 
-## Schedule (TODO)
+## Schedule
 
 ### Week 1
 ![SU-Week1-v1](https://user-images.githubusercontent.com/4578156/176634095-59a122be-5225-42dd-bb61-2cfc923cf7d9.png)
