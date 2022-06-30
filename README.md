@@ -1,12 +1,12 @@
 
 # CSCS-USI HPC/Data Analytics Summer University 2022
 
-This repository contains the materials used in the Summer School, including source code, lecture notes and slides.
+This repository contains the materials used in the Summer University, including source code, lecture notes and slides.
 Material will be added to the repository throughout the course, which will require that students either update their copy of the repository, or download/checkout a new copy of the repository.
 
 ## Announcements
 
-We will be using Slack to post news and links relevant to the event: you should have received an invitation to join the Summer School Slack workspace.
+We will be using Slack to post news and links relevant to the event: you should have received an invitation to join the Summer University Slack workspace.
 
 ## Schedule
 
@@ -33,7 +33,7 @@ We will be using Slack to post news and links relevant to the event: you should 
 ### On your own computer
 
 You will want to download the repository to your laptop to get all of the slides.
-The best method is to use git, so that you can update the repository as more slides and material are added over the course of the school.
+The best method is to use git, so that you can update the repository as more slides and material are added over the course of the event.
 So, if you have git installed, use the same method as for Piz Daint below (in a directory of your choosing).
 
 You can also download the code as a zip file by clicking on the green __Clone or download__ button on the top right hand side of the github page, then clicking on __Download zip__.
