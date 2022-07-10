@@ -38,19 +38,31 @@ So, if you have git installed, use the same method as for Piz Daint below (in a 
 
 You can also download the code as a zip file by clicking on the green __Clone or download__ button on the top right hand side of the github page, then clicking on __Download zip__.
 
-### On Piz Daint
+### On Piz Daint via JupyterLab
 
-Piz Daint has git installed, so we can download the code directly to where we will be working on the exercises and practicals.
+- Go to https://jupyter.cscs.ch/ and sign in using your CSCS course credentials 
+- Launch JupyterLab (might take a couple of minutes)
+  - Advanced reservation 'summer_uni1' 
+  - Default values for the other fields (unless told otherwise by the instructor)
+- Launch a new terminal : File -> New -> Terminal
+- Issue the following commands on the terminal:
+```bash
+ln -s $SCRATCH scratch
+cd $SCRATCH
+git clone https://github.com/eth-cscs/SummerUniversity2022.git
+```
+
+### On Piz Daint via ssh
+
+This is an alternative method to the JupyterLab method above
 
 ```bash
 # log onto Piz Daint ...
+ssh courseNNN@ela.cscs.ch
+ssh daint
 
 # go to scratch
 cd $SCRATCH
-
-# it is a good policy to put it in a personal path
-mkdir johnsmith
-cd johnsmith
 git clone https://github.com/eth-cscs/SummerUniversity2022.git
 ```
 
