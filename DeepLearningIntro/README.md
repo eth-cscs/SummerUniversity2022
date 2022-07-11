@@ -13,10 +13,11 @@ This is a two-day introductory course on "Deep Learning", held at the [CSCS-USI 
 
 #### Day 1, Tuesday, July 19th, 2022
 * A brief introduction to machine learning.
-* Multi-layer perceptron (incl. optimization procedures, batch normalization, Dropout, etc.). 
+* Multi-layer perceptron (incl. optimization procedures, batch normalization, dropout, etc.). 
+* A gentle introduction to Tensorflow.
 
 #### Day 2, Wednesday, July 20th 2022
-* Introduction to Tensorflow, applied to supervised machine learing. 
+* Tensorflow, applied to supervised machine learing tasks. 
 * Recurrent Neural Networks and beyond.
 * Reinforcement Learning.
 
