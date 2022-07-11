@@ -72,7 +72,7 @@ Lecture slides and source code will be continually added and updated throughout 
 To update the repository you can simply go inside the path
 
 ```
-git pull origin main
+git pull origin master
 ```
 
 There is a posibility that you might have a conflict between your working version of the repository and the origin.
