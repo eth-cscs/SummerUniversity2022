@@ -8,7 +8,7 @@
 
 template <int Threads>
 __global__
-void blur_shared(const double *in, double* out, int n) {
+void blur_shared_block(const double *in, double* out, int n) {
     __shared__ double buffer[Threads+2];
 
     auto block_start = blockDim.x * blockIdx.x;
@@ -30,7 +30,7 @@ void blur_shared(const double *in, double* out, int n) {
 }
 
 __global__
-void blur_shared_block(const double *in, double* out, int n) {
+void blur_shared(const double *in, double* out, int n) {
     extern __shared__ double buffer[];
 
     auto i = threadIdx.x + 1;
@@ -85,16 +85,11 @@ int main(int argc, char** argv) {
     constexpr auto block_dim = 128;
     const auto grid_dim = (n+(block_dim-1))/block_dim;
 
-    if (use_shared)
-        blur_shared<block_dim><<<grid_dim, block_dim>>>(x0, x1, n);
-    else
-        blur<<<grid_dim, block_dim>>>(x0, x1, n);
-
     cuda_stream stream;
     auto start_event = stream.enqueue_event();
     for(auto step=0; step<nsteps; ++step) {
         if (use_shared) {
-            blur_shared<block_dim><<<grid_dim, block_dim>>>(x0, x1, n);
+            blur_shared_block<block_dim><<<grid_dim, block_dim>>>(x0, x1, n);
         }
         else {
             blur<<<grid_dim, block_dim>>>(x0, x1, n);
