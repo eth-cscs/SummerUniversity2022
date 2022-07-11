@@ -58,7 +58,7 @@ This is an alternative method to the JupyterLab method above
 
 ```bash
 # log onto Piz Daint ...
-ssh courseNNN@ela.cscs.ch
+ssh classNNN@ela.cscs.ch
 ssh daint
 
 # go to scratch
