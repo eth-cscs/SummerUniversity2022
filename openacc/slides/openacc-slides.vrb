@@ -1,0 +1,17 @@
+\frametitle{General information}
+\begin{itemize}
+  \item C++ only
+  \item OpenACC version resides in \shinline{miniapp/openacc}
+  \item MPI+OpenACC version resides in \shinline{miniapp/mpi/openacc}
+  \item Plotting script inside the \shinline{scripts/} folder
+    \begin{itemize}
+    \item Use \shinline{plot.sh} in order not to mess with your environment.
+    \end{itemize}
+  \item Interesting files
+    \begin{itemize}
+    \item\shinline{main.cpp}: the solver
+    \item\shinline{data.h}: domain types
+    \item\shinline{linalg.cpp}: linear algebra kernels
+    \item\shinline{operators.cpp}: the diffusion kernel + communication routines
+    \end{itemize}
+  \end{itemize}

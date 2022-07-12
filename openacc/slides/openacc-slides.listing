@@ -1,0 +1,10 @@
+for (auto i = 0; i < 3; ++i) {
+    #pragma acc enter data copyin(f[i].arr[0:f[i].len])
+}
+
+#pragma acc enter data copyin(f[0:3])
+for (auto i = 0; i < 3; ++i) {
+    acc_attach((void **) &f[i].arr);
+}
+// do stuff on the device
+  

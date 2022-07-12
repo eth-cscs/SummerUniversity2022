@@ -1,0 +1,2938 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.12.3)  13 JUL 2022 00:28
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**openacc-slides.tex
+(./openacc-slides.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-03-06>
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamer.cls
+Document Class: beamer 2019/09/29 v3.57 A class for typesetting presentations
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count167
+)
+\beamer@tempbox=\box45
+\beamer@tempcount=\count168
+\c@beamerpauses=\count169
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
+\beamer@slideinframe=\count170
+\beamer@minimum=\count171
+\beamer@decode@box=\box46
+)
+\beamer@commentbox=\box47
+\beamer@modecount=\count172
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\headdp=\dimen134
+\footheight=\dimen135
+\sidebarheight=\dimen136
+\beamer@tempdim=\dimen137
+\beamer@finalheight=\dimen138
+\beamer@animht=\dimen139
+\beamer@animdp=\dimen140
+\beamer@animwd=\dimen141
+\beamer@leftmargin=\dimen142
+\beamer@rightmargin=\dimen143
+\beamer@leftsidebar=\dimen144
+\beamer@rightsidebar=\dimen145
+\beamer@boxsize=\dimen146
+\beamer@vboxoffset=\dimen147
+\beamer@descdefault=\dimen148
+\beamer@descriptionwidth=\dimen149
+\beamer@lastskip=\skip47
+\beamer@areabox=\box48
+\beamer@animcurrent=\box49
+\beamer@animshowbox=\box50
+\beamer@sectionbox=\box51
+\beamer@logobox=\box52
+\beamer@linebox=\box53
+\beamer@sectioncount=\count173
+\beamer@subsubsectionmax=\count174
+\beamer@subsectionmax=\count175
+\beamer@sectionmax=\count176
+\beamer@totalheads=\count177
+\beamer@headcounter=\count178
+\beamer@partstartpage=\count179
+\beamer@sectionstartpage=\count180
+\beamer@subsectionstartpage=\count181
+\beamer@animationtempa=\count182
+\beamer@animationtempb=\count183
+\beamer@xpos=\count184
+\beamer@ypos=\count185
+\beamer@ypos@offset=\count186
+\beamer@showpartnumber=\count187
+\beamer@currentsubsection=\count188
+\beamer@coveringdepth=\count189
+\beamer@sectionadjust=\count190
+\beamer@tocsectionnumber=\count191
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+))
+\beamer@paperwidth=\skip48
+\beamer@paperheight=\skip49
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+\Gm@cnth=\count192
+\Gm@cntv=\count193
+\c@Gm@tempcnt=\count194
+\Gm@bindingoffset=\dimen150
+\Gm@wd@mp=\dimen151
+\Gm@odd@mp=\dimen152
+\Gm@even@mp=\dimen153
+\Gm@layoutwidth=\dimen154
+\Gm@layoutheight=\dimen155
+\Gm@layouthoffset=\dimen156
+\Gm@layoutvoffset=\dimen157
+\Gm@dimlist=\toks16
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen158
+\Gin@req@width=\dimen159
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks17
+\pgfutil@tempdima=\dimen160
+\pgfutil@tempdimb=\dimen161
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box54
+(/usr/local/texlive/2020/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks18
+\pgfkeys@temptoks=\toks19
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks20
+))
+\pgf@x=\dimen162
+\pgf@y=\dimen163
+\pgf@xa=\dimen164
+\pgf@ya=\dimen165
+\pgf@xb=\dimen166
+\pgf@yb=\dimen167
+\pgf@xc=\dimen168
+\pgf@yc=\dimen169
+\pgf@xd=\dimen170
+\pgf@yd=\dimen171
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count195
+\c@pgf@countb=\count196
+\c@pgf@countc=\count197
+\c@pgf@countd=\count198
+\t@pgf@toka=\toks21
+\t@pgf@tokb=\toks22
+\t@pgf@tokc=\toks23
+\pgf@sys@id@count=\count199
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+)))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfsyssoftpath@smallbuffer@items=\count266
+\pgfsyssoftpath@bigbuffer@items=\count267
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen172
+\pgfmath@count=\count268
+\pgfmath@box=\box55
+\pgfmath@toks=\toks24
+\pgfmath@stack@operand=\toks25
+\pgfmath@stack@operation=\toks26
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count269
+)) (/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@picminx=\dimen173
+\pgf@picmaxx=\dimen174
+\pgf@picminy=\dimen175
+\pgf@picmaxy=\dimen176
+\pgf@pathminx=\dimen177
+\pgf@pathmaxx=\dimen178
+\pgf@pathminy=\dimen179
+\pgf@pathmaxy=\dimen180
+\pgf@xx=\dimen181
+\pgf@xy=\dimen182
+\pgf@yx=\dimen183
+\pgf@yy=\dimen184
+\pgf@zx=\dimen185
+\pgf@zy=\dimen186
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@path@lastx=\dimen187
+\pgf@path@lasty=\dimen188
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@shorten@end@additional=\dimen189
+\pgf@shorten@start@additional=\dimen190
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfpic=\box56
+\pgf@hbox=\box57
+\pgf@layerbox@main=\box58
+\pgf@picture@serial@count=\count270
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen191
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@pt@x=\dimen192
+\pgf@pt@y=\dimen193
+\pgf@pt@temp=\dimen194
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen195
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@max=\dimen196
+\pgf@sys@shading@range@num=\count271
+\pgf@shadingcount=\count272
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box59
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
+Package: xxcolor 2003/10/24 ver 0.1
+\XC@nummixins=\count273
+\XC@countmixins=\count274
+) (/usr/local/texlive/2020/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen197
+\Hy@linkcounter=\count275
+\Hy@pagecounter=\count276
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count277
+Package hyperref Info: Option `bookmarks' set `true' on input line 4421.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4421.
+Package hyperref Info: Option `implicit' set `false' on input line 4421.
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
+Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
+Package hyperref Info: Bookmarks ON on input line 4800.
+\c@Hy@tempcnt=\count278
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen198
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count279
+\Field@Width=\dimen199
+\Fld@charsize=\dimen256
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
+\Hy@abspage=\count280
+
+
+Package hyperref Message: Stopped early.
+
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+)
+\Fld@listcount=\count281
+\c@bookmark@seq@number=\count282
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaserequires.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasecompatibility.st
+y) (/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasefont.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks27
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
+Package: sansmathaccent 2020/01/31
+(/usr/local/texlive/2020/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2020/01/24 v3.29 KOMA-Script package (loading files)
+)))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator.sty
+Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasemisc.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
+\beamer@argscount=\count283
+\beamer@lastskipcover=\skip50
+\beamer@trivlistdepth=\count284
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasetitle.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasesection.sty
+\c@lecture=\count285
+\c@part=\count286
+\c@section=\count287
+\c@subsection=\count288
+\c@subsubsection=\count289
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
+\beamer@framebox=\box60
+\beamer@frametitlebox=\box61
+\beamer@zoombox=\box62
+\beamer@zoomcount=\count290
+\beamer@zoomframecount=\count291
+\beamer@frametextheight=\dimen257
+\c@subsectionslide=\count292
+\beamer@frametopskip=\skip51
+\beamer@framebottomskip=\skip52
+\beamer@frametopskipautobreak=\skip53
+\beamer@framebottomskipautobreak=\skip54
+\beamer@envbody=\toks28
+\framewidth=\dimen258
+\c@framenumber=\count293
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
+\beamer@verbatimfileout=\write4
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
+\beamer@splitbox=\box63
+\beamer@autobreakcount=\count294
+\beamer@autobreaklastheight=\dimen259
+\beamer@frametitletoks=\toks29
+\beamer@framesubtitletoks=\toks30
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.
+sty
+\beamer@footins=\box64
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasecolor.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
+\beamer@frameboxcopy=\box65
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasetoc.sty)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
+\beamer@sbttoks=\toks31
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
+\bmb@box=\box66
+\bmb@colorbox=\box67
+\bmb@boxshadow=\box68
+\bmb@boxshadowball=\box69
+\bmb@boxshadowballlarge=\box70
+\bmb@temp=\dimen260
+\bmb@dima=\dimen261
+\bmb@dimb=\dimen262
+\bmb@prevheight=\dimen263
+)
+\beamer@blockheadheight=\dimen264
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.s
+ty (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks32
+)
+\c@figure=\count295
+\c@table=\count296
+\abovecaptionskip=\skip55
+\belowcaptionskip=\skip56
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
+\beamer@section@min@dim=\dimen265
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip57
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks33
+\ex@=\dimen266
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen267
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count297
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count298
+\leftroot@=\count299
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count300
+\DOTSCASE@=\count301
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box71
+\strutbox@=\box72
+\big@size=\dimen268
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count302
+\c@MaxMatrixCols=\count303
+\dotsspace@=\muskip17
+\c@parentequation=\count304
+\dspbrk@lvl=\count305
+\tag@help=\toks34
+\row@=\count306
+\column@=\count307
+\maxfields@=\count308
+\andhelp@=\toks35
+\eqnshift@=\dimen269
+\alignsep@=\dimen270
+\tagshift@=\dimen271
+\tagwidth@=\dimen272
+\totwidth@=\dimen273
+\lineht@=\dimen274
+\@envbody=\toks36
+\multlinegap=\skip58
+\multlinetaggap=\skip59
+\mathdisplay@stack=\toks37
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks38
+\thm@bodyfont=\toks39
+\thm@headfont=\toks40
+\thm@notefont=\toks41
+\thm@headpunct=\toks42
+\thm@preskip=\skip60
+\thm@postskip=\skip61
+\thm@headsep=\skip62
+\dth@everypar=\toks43
+)
+\c@theorem=\count309
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerbasethemes.sty))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerthemedefault.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamercolorthemedefault.st
+y)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.st
+y
+\beamer@dima=\dimen275
+\beamer@dimb=\dimen276
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerouterthemedefault.st
+y))) (./beamerthemeCSCS.sty
+Package: beamerthemeCSCS 2015/04/21 CSCS beamer theme
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/helvet.sty
+Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/changepage/changepage.sty
+Package: changepage 2009/10/20 v1.0c check page and change page layout
+\c@cp@cntr=\count310
+\cp@tempcnt=\count311
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tcolorbox/tcolorbox.sty
+Package: tcolorbox 2019/11/15 version 4.22 text color boxes
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box73
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@nodesepstart=\dimen277
+\pgf@nodesepend=\dimen278
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
+)) (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks44
+\verbatim@line=\toks45
+\verbatim@in@stream=\read3
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box74
+\tcb@upperbox=\box75
+\tcb@lowerbox=\box76
+\tcb@phantombox=\box77
+\c@tcbbreakpart=\count312
+\c@tcblayer=\count313
+\tcolorbox@number=\count314
+\tcb@temp=\box78
+\tcb@temp=\box79
+\tcb@temp=\box80
+\tcb@temp=\box81
+\tcb@out=\write5
+\tcb@record@out=\write6
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count315
+\lst@gtempboxa=\box82
+\lst@token=\toks46
+\lst@length=\count316
+\lst@currlwidth=\dimen279
+\lst@column=\count317
+\lst@pos=\count318
+\lst@lostspace=\dimen280
+\lst@width=\dimen281
+\lst@newlines=\count319
+\lst@lineno=\count320
+\lst@maxwidth=\dimen282
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count321
+\lst@skipnumbers=\count322
+\lst@framebox=\box83
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/mnsymbol/MnSymbol.sty
+Package: MnSymbol 2007/01/21 v1.4 support for the MnSymbol font
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+LaTeX Info: Redefining \dagger on input line 84.
+LaTeX Info: Redefining \ddagger on input line 84.
+LaTeX Info: Redefining \mathparagraph on input line 84.
+LaTeX Info: Redefining \mathsection on input line 84.
+LaTeX Info: Redefining \mathdollar on input line 84.
+LaTeX Info: Redefining \mathsterling on input line 84.
+LaTeX Info: Redefining \yen on input line 84.
+LaTeX Info: Redefining \circledR on input line 84.
+LaTeX Info: Redefining \circledS on input line 84.
+LaTeX Info: Redefining \Re on input line 84.
+LaTeX Info: Redefining \Im on input line 84.
+LaTeX Info: Redefining \dotplus on input line 84.
+LaTeX Info: Redefining \thicksim on input line 84.
+LaTeX Info: Redefining \thickapprox on input line 84.
+LaTeX Info: Redefining \veebar on input line 84.
+LaTeX Info: Redefining \barwedge on input line 84.
+LaTeX Info: Redefining \doublebarwedge on input line 84.
+LaTeX Info: Redefining \centerdot on input line 84.
+LaTeX Info: Redefining \divideontimes on input line 84.
+\symMnSyA=\mathgroup6
+\symMnSyB=\mathgroup7
+\symMnSyC=\mathgroup8
+\symMnSyD=\mathgroup9
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 119.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/MnSymbolE/m/n on input line 119.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/MnSymbolE/m/n on input line 119.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 120.
+LaTeX Font Info:    Encoding `OMS' has changed to `U' for symbol font
+(Font)              `symbols' in the math version `normal' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> U/MnSymbolF/m/n on input line 120.
+LaTeX Font Info:    Encoding `OMS' has changed to `U' for symbol font
+(Font)              `symbols' in the math version `bold' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> U/MnSymbolF/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `MnSyA' in version `bold'
+(Font)                  U/MnSymbolA/m/n --> U/MnSymbolA/b/n on input line 121.
+LaTeX Font Info:    Overwriting symbol font `MnSyB' in version `bold'
+(Font)                  U/MnSymbolB/m/n --> U/MnSymbolB/b/n on input line 122.
+LaTeX Font Info:    Overwriting symbol font `MnSyC' in version `bold'
+(Font)                  U/MnSymbolC/m/n --> U/MnSymbolC/b/n on input line 123.
+LaTeX Font Info:    Overwriting symbol font `MnSyD' in version `bold'
+(Font)                  U/MnSymbolD/m/n --> U/MnSymbolD/b/n on input line 124.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/MnSymbolE/m/n --> OMX/MnSymbolE/b/n on input line 1
+25.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  U/MnSymbolF/m/n --> U/MnSymbolF/b/n on input line 126.
+LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 241.
+LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `bold'
+(Font)                  OMS/MnSymbolS/m/n --> OMS/MnSymbolS/b/n on input line 2
+41.
+LaTeX Info: Redefining \longrightarrow on input line 548.
+LaTeX Info: Redefining \longleftarrow on input line 549.
+LaTeX Info: Redefining \longleftrightarrow on input line 550.
+LaTeX Info: Redefining \Longrightarrow on input line 551.
+LaTeX Info: Redefining \Longleftarrow on input line 552.
+LaTeX Info: Redefining \Longleftrightarrow on input line 553.
+LaTeX Info: Redefining \longmapsto on input line 554.
+LaTeX Info: Redefining \vdots on input line 868.
+LaTeX Font Info:    Redeclaring math symbol \braceld on input line 1721.
+LaTeX Font Info:    Redeclaring math symbol \bracelu on input line 1722.
+LaTeX Font Info:    Redeclaring math symbol \bracerd on input line 1723.
+LaTeX Font Info:    Redeclaring math symbol \braceru on input line 1724.
+LaTeX Info: Redefining \downbracefill on input line 1799.
+LaTeX Info: Redefining \upbracefill on input line 1800.
+LaTeX Info: Redefining \overbrace on input line 1819.
+LaTeX Info: Redefining \underbrace on input line 1820.
+LaTeX Info: Redefining \surd on input line 1843.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 1845.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 1846.
+LaTeX Font Info:    Redeclaring math accent \vec on input line 1848.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xhfill/xhfill.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count323
+\calc@Bcount=\count324
+\calc@Adimen=\dimen283
+\calc@Bdimen=\dimen284
+\calc@Askip=\skip63
+\calc@Bskip=\skip64
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count325
+\calc@Cskip=\skip65
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+Package: xhfill 2011/05/14\ v 1.01\ modify width and color of hrulefill
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tcolorbox/tcblistings.code.tex
+Library (tcolorbox): 'tcblistings.code.tex' version '4.22'
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tcolorbox/tcblistingscore.code.te
+x
+Library (tcolorbox): 'tcblistingscore.code.tex' version '4.22'
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tcolorbox/tcbprocessing.code.tex
+Library (tcolorbox): 'tcbprocessing.code.tex' version '4.22'
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2019/11/08 v1.0c unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+))
+\c@tcblisting=\count326
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+Library (tcolorbox): 'tcbskins.code.tex' version '4.22'
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen285
+\pgffor@skip=\dimen286
+\pgffor@stack=\toks47
+\pgffor@toks=\toks48
+))
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgf@plot@mark@count=\count327
+\pgfplotmarksize=\dimen287
+)
+\tikz@lastx=\dimen288
+\tikz@lasty=\dimen289
+\tikz@lastxsaved=\dimen290
+\tikz@lastysaved=\dimen291
+\tikz@lastmovetox=\dimen292
+\tikz@lastmovetoy=\dimen293
+\tikzleveldistance=\dimen294
+\tikzsiblingdistance=\dimen295
+\tikz@figbox=\box84
+\tikz@figbox@bg=\box85
+\tikz@tempbox=\box86
+\tikz@tempbox@bg=\box87
+\tikztreelevel=\count328
+\tikznumberofchildren=\count329
+\tikznumberofcurrentchild=\count330
+\tikz@fig@count=\count331
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfmatrixcurrentrow=\count332
+\pgfmatrixcurrentcolumn=\count333
+\pgf@matrix@numberofcolumns=\count334
+)
+\tikz@expandcount=\count335
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+\tcb@waterbox=\box88
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '4.22'
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/beamer/beamerfontthemeserif.sty)
+\@headerdist=\skip66
+\@footlineraise=\skip67
+\@titleindent=\skip68
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count336
+\l__pdf_internal_box=\box89
+) (./openacc-slides.aux)
+\openout1 = `openacc-slides.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 3
+2.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 21.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 24.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 27.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 47.
+
+)
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 10.20007pt on input line 32.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(28.45274pt, 398.3386pt, 28.45274pt)
+* v-part:(T,H,B)=(0.0pt, 256.0748pt, 0.0pt)
+* \paperwidth=455.24408pt
+* \paperheight=256.0748pt
+* \textwidth=398.3386pt
+* \textheight=227.62207pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \topskip=12.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count337
+\scratchdimen=\dimen296
+\scratchbox=\box90
+\nofMPsegments=\count338
+\nofMParguments=\count339
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count340
+\MPscratchDim=\dimen297
+\MPnumerator=\count341
+\makeMPintoPDFobject=\count342
+\everyMPtoPDFconversion=\toks50
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box91
+Package hyperref Info: Link coloring OFF on input line 32.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count343
+)
+LaTeX Info: Redefining \ref on input line 32.
+LaTeX Info: Redefining \pageref on input line 32.
+LaTeX Info: Redefining \nameref on input line 32.
+ (./openacc-slides.out) (./openacc-slides.out)
+\@outlinefile=\write7
+\openout7 = `openacc-slides.out'.
+
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-basic-dicti
+onary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-bibliograph
+y-dictionary-English.dict
+Dictionary: translator-bibliography-dictionary, Language: English 
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-environment
+-dictionary-English.dict
+Dictionary: translator-environment-dictionary, Language: English 
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-months-dict
+ionary-English.dict
+Dictionary: translator-months-dictionary, Language: English 
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-numbers-dic
+tionary-English.dict
+Dictionary: translator-numbers-dictionary, Language: English 
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator-theorem-dic
+tionary-English.dict
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+\c@lstlisting=\count344
+ (./openacc-slides.nav)
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 5.10004pt on input line 32.
+<cscs_images/cscs_logo.pdf, id=21, 250.9375pt x 76.285pt>
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 32.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 32.
+
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 32.
+
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+<cscs_images/eth_logo.pdf, id=22, 141.52875pt x 24.09pt>
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 32.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+<cscs_images/cscs_entrance_painting.pdf, id=23, 314.37451pt x 79.82553pt>
+File: cscs_images/cscs_entrance_painting.pdf Graphic file (type pdf)
+<use cscs_images/cscs_entrance_painting.pdf>
+Package pdftex.def Info: cscs_images/cscs_entrance_painting.pdf  used on input 
+line 35.
+(pdftex.def)             Requested size: 455.2845pt x 84.50989pt.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 10.20007pt on input line 35.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 12.24008pt on input line 35.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 35.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 10.20007pt on input line 35.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 3.40002pt on input line 35.
+<cscs_images/cscs_logo_fullname.pdf, id=24, 383.4325pt x 77.28876pt>
+File: cscs_images/cscs_logo_fullname.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo_fullname.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo_fullname.pdf  used on input line
+ 35.
+(pdftex.def)             Requested size: 95.85788pt x 19.32213pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 35.
+(pdftex.def)             Requested size: 41.04228pt x 6.9859pt.
+
+Overfull \hbox (4.25327pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \vbox (36.0pt too high) has occurred while \output is active []
+
+ [1
+
+{/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./cscs_
+images/cscs_logo_fullname.pdf> <./cscs_images/eth_logo.pdf
+
+pdfTeX warning: pdflatex (file ./cscs_images/eth_logo.pdf): PDF inclusion: mult
+iple pdfs with page group included in a single page
+> <./cscs_images/cscs_entrance_painting.pdf>]
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 9.30756pt on input line 61.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 8.50006pt on input line 61.
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 14.6881pt on input line 61.
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 14.6881pt on input line 61.
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 61.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 61.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[2
+
+ <./cscs_images/cscs_logo.pdf>]
+LaTeX Font Info:    Font shape `OT1/phv/b/n' will be
+(Font)              scaled to size 17.62912pt on input line 63.
+File: cscs_images/cscs_logo_fullname.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo_fullname.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo_fullname.pdf  used on input line
+ 63.
+(pdftex.def)             Requested size: 95.85788pt x 19.32213pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 63.
+(pdftex.def)             Requested size: 41.04228pt x 6.9859pt.
+
+Overfull \hbox (4.25327pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \vbox (36.0pt too high) has occurred while \output is active []
+
+ [3
+
+]
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 94.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 94.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[4
+
+]
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 107.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 107.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[5
+
+]
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 130.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 130.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[6
+
+]
+\openout4 = `openacc-slides.vrb'.
+
+ (./openacc-slides.vrb
+(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+)
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 6.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 9.30756pt on input line 6.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
+11.
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1cmtt.fd
+File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+))
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 147.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 147.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[7
+
+]
+\openout4 = `openacc-slides.vrb'.
+
+ (./openacc-slides.vrb
+\openout5 = `openacc-slides.listing'.
+
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 6.80005pt on input line 7.
+ (./openacc-slides.listing)
+\openout5 = `openacc-slides.listing'.
+
+ (./openacc-slides.listing))
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 162.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 162.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[8
+
+]
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 177.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 177.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[9
+
+]
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 204.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 204.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[10
+
+]
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 204.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 204.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[11
+
+]
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 224.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 224.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[12
+
+]
+<./figs/GR_mode.pdf, id=116, 578.16pt x 377.41pt>
+File: ./figs/GR_mode.pdf Graphic file (type pdf)
+<use ./figs/GR_mode.pdf>
+Package pdftex.def Info: ./figs/GR_mode.pdf  used on input line 242.
+(pdftex.def)             Requested size: 293.47264pt x 191.57251pt.
+
+Overfull \vbox (4.57945pt too high) detected at line 242
+ []
+
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 242.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 242.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[13
+
+ <./figs/GR_mode.pdf
+
+pdfTeX warning: pdflatex (file ./figs/GR_mode.pdf): PDF inclusion: invalid othe
+r resource which is no dict (key 'ProcSets', type <array>); ignored.
+>]
+<./figs/GP_WS_VS_mode.pdf, id=155, 585.18625pt x 377.41pt>
+File: ./figs/GP_WS_VS_mode.pdf Graphic file (type pdf)
+<use ./figs/GP_WS_VS_mode.pdf>
+Package pdftex.def Info: ./figs/GP_WS_VS_mode.pdf  used on input line 242.
+(pdftex.def)             Requested size: 297.03915pt x 191.57251pt.
+
+Overfull \vbox (4.57945pt too high) detected at line 242
+ []
+
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 242.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 242.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[14
+
+ <./figs/GP_WS_VS_mode.pdf
+
+pdfTeX warning: pdflatex (file ./figs/GP_WS_VS_mode.pdf): PDF inclusion: invali
+d other resource which is no dict (key 'ProcSets', type <array>); ignored.
+>]
+<./figs/GP_WP_VS_mode.pdf, id=194, 585.18625pt x 377.41pt>
+File: ./figs/GP_WP_VS_mode.pdf Graphic file (type pdf)
+<use ./figs/GP_WP_VS_mode.pdf>
+Package pdftex.def Info: ./figs/GP_WP_VS_mode.pdf  used on input line 242.
+(pdftex.def)             Requested size: 297.03915pt x 191.57251pt.
+
+Overfull \vbox (4.57945pt too high) detected at line 242
+ []
+
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 242.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 242.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[15
+
+ <./figs/GP_WP_VS_mode.pdf
+
+pdfTeX warning: pdflatex (file ./figs/GP_WP_VS_mode.pdf): PDF inclusion: invali
+d other resource which is no dict (key 'ProcSets', type <array>); ignored.
+>]
+<./figs/GP_WP_VP_mode.pdf, id=232, 585.18625pt x 377.41pt>
+File: ./figs/GP_WP_VP_mode.pdf Graphic file (type pdf)
+<use ./figs/GP_WP_VP_mode.pdf>
+Package pdftex.def Info: ./figs/GP_WP_VP_mode.pdf  used on input line 242.
+(pdftex.def)             Requested size: 297.03915pt x 191.57251pt.
+
+Overfull \vbox (4.57945pt too high) detected at line 242
+ []
+
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 242.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 242.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[16
+
+ <./figs/GP_WP_VP_mode.pdf
+
+pdfTeX warning: pdflatex (file ./figs/GP_WP_VP_mode.pdf): PDF inclusion: invali
+d other resource which is no dict (key 'ProcSets', type <array>); ignored.
+>]
+\openout4 = `openacc-slides.vrb'.
+
+ (./openacc-slides.vrb
+\openout5 = `openacc-slides.listing'.
+
+ (./openacc-slides.listing))
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 264.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 264.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[17
+
+]
+\openout4 = `openacc-slides.vrb'.
+
+ (./openacc-slides.vrb
+\openout5 = `openacc-slides.listing'.
+
+ (./openacc-slides.listing))
+Overfull \vbox (1.5318pt too high) detected at line 288
+ []
+
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 288.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 288.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[18
+
+]
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 314.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 314.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[19
+
+]
+\openout4 = `openacc-slides.vrb'.
+
+ (./openacc-slides.vrb
+\openout5 = `openacc-slides.listing'.
+
+ (./openacc-slides.listing))
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 333.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 333.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[20
+
+]
+\openout4 = `openacc-slides.vrb'.
+
+ (./openacc-slides.vrb
+\openout5 = `openacc-slides.listing'.
+
+ (./openacc-slides.listing))
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 357.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 357.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[21
+
+]
+\openout4 = `openacc-slides.vrb'.
+
+ (./openacc-slides.vrb)
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 376.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 376.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[22
+
+] (./openacc-slides.vrb)
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 376.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 376.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[23
+
+]
+\openout4 = `openacc-slides.vrb'.
+
+ (./openacc-slides.vrb)
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 391.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 391.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[24
+
+]
+\openout4 = `openacc-slides.vrb'.
+
+ (./openacc-slides.vrb)
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 411.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 411.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[25
+
+]
+\openout4 = `openacc-slides.vrb'.
+
+ (./openacc-slides.vrb)
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 431.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 431.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[26
+
+] (./openacc-slides.vrb)
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 431.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 431.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[27
+
+]
+<./figs/mem_model_init.pdf, id=333, 348.30125pt x 218.8175pt>
+File: ./figs/mem_model_init.pdf Graphic file (type pdf)
+<use ./figs/mem_model_init.pdf>
+Package pdftex.def Info: ./figs/mem_model_init.pdf  used on input line 458.
+(pdftex.def)             Requested size: 266.8163pt x 167.62457pt.
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 458.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 458.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[28
+
+ <./figs/mem_model_init.pdf
+
+pdfTeX warning: pdflatex (file ./figs/mem_model_init.pdf): PDF inclusion: inval
+id other resource which is no dict (key 'ProcSets', type <array>); ignored.
+>]
+<./figs/mem_model_copyin1.pdf, id=353, 348.30125pt x 218.8175pt>
+File: ./figs/mem_model_copyin1.pdf Graphic file (type pdf)
+<use ./figs/mem_model_copyin1.pdf>
+Package pdftex.def Info: ./figs/mem_model_copyin1.pdf  used on input line 458.
+(pdftex.def)             Requested size: 266.8163pt x 167.62457pt.
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 458.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 458.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[29
+
+ <./figs/mem_model_copyin1.pdf
+
+pdfTeX warning: pdflatex (file ./figs/mem_model_copyin1.pdf): PDF inclusion: in
+valid other resource which is no dict (key 'ProcSets', type <array>); ignored.
+>]
+<./figs/mem_model_copyin2.pdf, id=374, 348.30125pt x 218.8175pt>
+File: ./figs/mem_model_copyin2.pdf Graphic file (type pdf)
+<use ./figs/mem_model_copyin2.pdf>
+Package pdftex.def Info: ./figs/mem_model_copyin2.pdf  used on input line 458.
+(pdftex.def)             Requested size: 266.8163pt x 167.62457pt.
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 458.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 458.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[30
+
+ <./figs/mem_model_copyin2.pdf
+
+pdfTeX warning: pdflatex (file ./figs/mem_model_copyin2.pdf): PDF inclusion: in
+valid other resource which is no dict (key 'ProcSets', type <array>); ignored.
+>]
+<./figs/mem_model_kernel1.pdf, id=395, 348.30125pt x 218.8175pt>
+File: ./figs/mem_model_kernel1.pdf Graphic file (type pdf)
+<use ./figs/mem_model_kernel1.pdf>
+Package pdftex.def Info: ./figs/mem_model_kernel1.pdf  used on input line 458.
+(pdftex.def)             Requested size: 266.8163pt x 167.62457pt.
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 458.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 458.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[31
+
+ <./figs/mem_model_kernel1.pdf
+
+pdfTeX warning: pdflatex (file ./figs/mem_model_kernel1.pdf): PDF inclusion: in
+valid other resource which is no dict (key 'ProcSets', type <array>); ignored.
+>]
+<./figs/mem_model_copyout2.pdf, id=417, 348.30125pt x 218.8175pt>
+File: ./figs/mem_model_copyout2.pdf Graphic file (type pdf)
+<use ./figs/mem_model_copyout2.pdf>
+Package pdftex.def Info: ./figs/mem_model_copyout2.pdf  used on input line 458.
+
+(pdftex.def)             Requested size: 266.8163pt x 167.62457pt.
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 458.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 458.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[32
+
+ <./figs/mem_model_copyout2.pdf
+
+pdfTeX warning: pdflatex (file ./figs/mem_model_copyout2.pdf): PDF inclusion: i
+nvalid other resource which is no dict (key 'ProcSets', type <array>); ignored.
+
+>]
+<./figs/mem_model_kernel2.pdf, id=439, 348.30125pt x 218.8175pt>
+File: ./figs/mem_model_kernel2.pdf Graphic file (type pdf)
+<use ./figs/mem_model_kernel2.pdf>
+Package pdftex.def Info: ./figs/mem_model_kernel2.pdf  used on input line 458.
+(pdftex.def)             Requested size: 266.8163pt x 167.62457pt.
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 458.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 458.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[33
+
+ <./figs/mem_model_kernel2.pdf
+
+pdfTeX warning: pdflatex (file ./figs/mem_model_kernel2.pdf): PDF inclusion: in
+valid other resource which is no dict (key 'ProcSets', type <array>); ignored.
+>]
+<./figs/mem_model_copyout1.pdf, id=462, 348.30125pt x 218.8175pt>
+File: ./figs/mem_model_copyout1.pdf Graphic file (type pdf)
+<use ./figs/mem_model_copyout1.pdf>
+Package pdftex.def Info: ./figs/mem_model_copyout1.pdf  used on input line 458.
+
+(pdftex.def)             Requested size: 266.8163pt x 167.62457pt.
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 458.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 458.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[34
+
+ <./figs/mem_model_copyout1.pdf
+
+pdfTeX warning: pdflatex (file ./figs/mem_model_copyout1.pdf): PDF inclusion: i
+nvalid other resource which is no dict (key 'ProcSets', type <array>); ignored.
+
+>]
+<./figs/unified_mem_init.pdf, id=484, 362.35374pt x 240.9pt>
+File: ./figs/unified_mem_init.pdf Graphic file (type pdf)
+<use ./figs/unified_mem_init.pdf>
+Package pdftex.def Info: ./figs/unified_mem_init.pdf  used on input line 473.
+(pdftex.def)             Requested size: 252.14198pt x 167.62457pt.
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 473.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 473.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[35
+
+ <./figs/unified_mem_init.pdf
+
+pdfTeX warning: pdflatex (file ./figs/unified_mem_init.pdf): PDF inclusion: inv
+alid other resource which is no dict (key 'ProcSets', type <array>); ignored.
+>]
+<./figs/unified_mem_pagefault.pdf, id=504, 362.35374pt x 240.9pt>
+File: ./figs/unified_mem_pagefault.pdf Graphic file (type pdf)
+<use ./figs/unified_mem_pagefault.pdf>
+Package pdftex.def Info: ./figs/unified_mem_pagefault.pdf  used on input line 4
+73.
+(pdftex.def)             Requested size: 252.14198pt x 167.62457pt.
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 473.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 473.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[36
+
+ <./figs/unified_mem_pagefault.pdf
+
+pdfTeX warning: pdflatex (file ./figs/unified_mem_pagefault.pdf): PDF inclusion
+: invalid other resource which is no dict (key 'ProcSets', type <array>); ignor
+ed.
+>]
+<./figs/unified_mem_pagemigration.pdf, id=525, 362.35374pt x 240.9pt>
+File: ./figs/unified_mem_pagemigration.pdf Graphic file (type pdf)
+<use ./figs/unified_mem_pagemigration.pdf>
+Package pdftex.def Info: ./figs/unified_mem_pagemigration.pdf  used on input li
+ne 473.
+(pdftex.def)             Requested size: 252.14198pt x 167.62457pt.
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 473.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 473.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[37
+
+ <./figs/unified_mem_pagemigration.pdf
+
+pdfTeX warning: pdflatex (file ./figs/unified_mem_pagemigration.pdf): PDF inclu
+sion: invalid other resource which is no dict (key 'ProcSets', type <array>); i
+gnored.
+>]
+\openout4 = `openacc-slides.vrb'.
+
+ (./openacc-slides.vrb)
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 494.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 494.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[38
+
+]
+\openout4 = `openacc-slides.vrb'.
+
+ (./openacc-slides.vrb
+(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+))
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 507.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 507.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[39
+
+]
+\openout4 = `openacc-slides.vrb'.
+
+ (./openacc-slides.vrb)
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 527.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 527.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[40
+
+]
+\openout4 = `openacc-slides.vrb'.
+
+ (./openacc-slides.vrb)
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 550.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 550.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[41
+
+]
+\openout4 = `openacc-slides.vrb'.
+
+ (./openacc-slides.vrb)
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 563.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 563.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[42
+
+]
+\openout4 = `openacc-slides.vrb'.
+
+ (./openacc-slides.vrb)
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 579.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 579.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[43
+
+]
+\openout4 = `openacc-slides.vrb'.
+
+ (./openacc-slides.vrb)
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 614.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 614.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[44
+
+]
+\openout4 = `openacc-slides.vrb'.
+
+ (./openacc-slides.vrb)
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 632.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 632.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[45
+
+]
+\openout4 = `openacc-slides.vrb'.
+
+ (./openacc-slides.vrb)
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 643.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 643.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[46
+
+] (./openacc-slides.vrb)
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 643.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 643.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[47
+
+]
+\openout4 = `openacc-slides.vrb'.
+
+ (./openacc-slides.vrb)
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 733.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 733.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[48
+
+]
+\openout4 = `openacc-slides.vrb'.
+
+ (./openacc-slides.vrb)
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 745.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 745.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[49
+
+]
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 756.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 756.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[50
+
+]
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 767.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 767.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[51
+
+]
+<./figs/blur_twice_kernel.pdf, id=622, 475.7775pt x 237.88875pt>
+File: ./figs/blur_twice_kernel.pdf Graphic file (type pdf)
+<use ./figs/blur_twice_kernel.pdf>
+Package pdftex.def Info: ./figs/blur_twice_kernel.pdf  used on input line 774.
+(pdftex.def)             Requested size: 278.83578pt x 139.42387pt.
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 774.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 774.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[52
+
+ <./figs/blur_twice_kernel.pdf
+
+pdfTeX warning: pdflatex (file ./figs/blur_twice_kernel.pdf): PDF inclusion: in
+valid other resource which is no dict (key 'ProcSets', type <array>); ignored.
+>]
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 794.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 794.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[53
+
+]
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 794.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 794.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[54
+
+]
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 804.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 804.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[55
+
+]
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 816.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 816.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[56
+
+]
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 829.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 829.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[57
+
+]
+\openout4 = `openacc-slides.vrb'.
+
+ (./openacc-slides.vrb
+\openout5 = `openacc-slides.listing'.
+
+ (./openacc-slides.listing))
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 844.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 844.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[58
+
+]
+\openout4 = `openacc-slides.vrb'.
+
+ (./openacc-slides.vrb
+\openout5 = `openacc-slides.listing'.
+
+ (./openacc-slides.listing))
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 862.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 862.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[59
+
+]
+LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
+(Font)              scaled to size 12.24008pt on input line 873.
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <14.4> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 873.
+LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
+(Font)              scaled to size 12.24008pt on input line 873.
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 873.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 873.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[60
+
+]
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 886.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 886.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[61
+
+]
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 897.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 897.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[62
+
+]
+\openout4 = `openacc-slides.vrb'.
+
+ (./openacc-slides.vrb)
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 917.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 917.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[63
+
+]
+\openout4 = `openacc-slides.vrb'.
+
+ (./openacc-slides.vrb)
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 941.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 941.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[64
+
+]
+\openout4 = `openacc-slides.vrb'.
+
+ (./openacc-slides.vrb)
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 961.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 961.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[65
+
+] (./openacc-slides.vrb)
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 961.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 961.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[66
+
+] (./openacc-slides.vrb)
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 961.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 961.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[67
+
+]
+\openout4 = `openacc-slides.vrb'.
+
+ (./openacc-slides.vrb)
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 980.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 980.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[68
+
+]
+\openout4 = `openacc-slides.vrb'.
+
+ (./openacc-slides.vrb)
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 1055.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 1055.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[69
+
+]
+\openout4 = `openacc-slides.vrb'.
+
+ (./openacc-slides.vrb
+Overfull \hbox (28.07431pt too wide) in paragraph at lines 11--13
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+)
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 1074.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 1074.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[70
+
+]
+\openout4 = `openacc-slides.vrb'.
+
+ (./openacc-slides.vrb
+Overfull \hbox (56.81775pt too wide) in paragraph at lines 7--9
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+)
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 1089.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 1089.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[71
+
+]
+\openout4 = `openacc-slides.vrb'.
+
+ (./openacc-slides.vrb
+\openout5 = `openacc-slides.listing'.
+
+ (./openacc-slides.listing))
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 1129.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 1129.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[72
+
+] (./openacc-slides.vrb
+\openout5 = `openacc-slides.listing'.
+
+ (./openacc-slides.listing))
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 1129.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 1129.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[73
+
+]
+\openout4 = `openacc-slides.vrb'.
+
+ (./openacc-slides.vrb
+\openout5 = `openacc-slides.listing'.
+
+ (./openacc-slides.listing))
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 1147.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 1147.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[74
+
+]
+\openout4 = `openacc-slides.vrb'.
+
+ (./openacc-slides.vrb
+\openout5 = `openacc-slides.listing'.
+
+ (./openacc-slides.listing))
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 1166.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 1166.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[75
+
+]
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 1185.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 1185.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[76
+
+]
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 1206.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 1206.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[77
+
+]
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 1225.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 1225.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[78
+
+]
+File: cscs_images/cscs_logo_fullname.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo_fullname.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo_fullname.pdf  used on input line
+ 1227.
+(pdftex.def)             Requested size: 95.85788pt x 19.32213pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 1227.
+(pdftex.def)             Requested size: 41.04228pt x 6.9859pt.
+
+Overfull \hbox (4.25327pt too wide) has occurred while \output is active
+[]
+ []
+
+
+Overfull \vbox (36.0pt too high) has occurred while \output is active []
+
+ [79
+
+]
+\openout4 = `openacc-slides.vrb'.
+
+
+(./openacc-slides.vrb)
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 1246.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 1246.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[80
+
+]
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 1259.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 1259.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[81
+
+]
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 1279.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 1279.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[82
+
+]
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 1279.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 1279.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[83
+
+]
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 1279.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 1279.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[84
+
+]
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 1279.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 1279.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[85
+
+]
+File: cscs_images/cscs_logo.pdf Graphic file (type pdf)
+<use cscs_images/cscs_logo.pdf>
+Package pdftex.def Info: cscs_images/cscs_logo.pdf  used on input line 1298.
+(pdftex.def)             Requested size: 35.131pt x 10.67982pt.
+File: cscs_images/eth_logo.pdf Graphic file (type pdf)
+<use cscs_images/eth_logo.pdf>
+Package pdftex.def Info: cscs_images/eth_logo.pdf  used on input line 1298.
+(pdftex.def)             Requested size: 31.13641pt x 5.2998pt.
+
+Overfull \hbox (5.66406pt too wide) has occurred while \output is active
+[] 
+ []
+
+[86
+
+]
+\tf@nav=\write8
+\openout8 = `openacc-slides.nav'.
+
+\tf@toc=\write9
+\openout9 = `openacc-slides.toc'.
+
+\tf@snm=\write10
+\openout10 = `openacc-slides.snm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1300.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1300.
+ (./openacc-slides.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1300.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1300.
+
+Package rerunfilecheck Info: File `openacc-slides.out' has not changed.
+(rerunfilecheck)             Checksum: A28223A0494350CB8D24F0D189538CCA;130.
+ ) 
+Here is how much of TeX's memory you used:
+ 29547 strings out of 480608
+ 572776 string characters out of 5903630
+ 1102971 words of memory out of 5000000
+ 44519 multiletter control sequences out of 15000+600000
+ 577960 words of font info for 135 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 60i,19n,100p,781b,1992s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{/
+usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/u
+sr/local/texlive/2020/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{/usr/l
+ocal/texlive/2020/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}{/usr/local
+/texlive/2020/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{/usr/local/tex
+live/2020/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/texlive/2020/texmf
+-dist/fonts/type1/public/mnsymbol/MnSymbol10.pfb></usr/local/texlive/2020/texmf
+-dist/fonts/type1/public/mnsymbol/MnSymbol12.pfb></usr/local/texlive/2020/texmf
+-dist/fonts/type1/public/mnsymbol/MnSymbol6.pfb></usr/local/texlive/2020/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmitt10.pfb></usr/local/texlive/2020/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2020/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2020/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texlive/2020/texmf-dist/
+fonts/type1/public/cm-super/sftt0800.pfb></usr/local/texlive/2020/texmf-dist/fo
+nts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2020/texmf-dist/font
+s/type1/public/cm-super/sftt1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/
+type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/ty
+pe1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw
+/helvetic/uhvr8a.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/urw/helvet
+ic/uhvro8a.pfb>
+Output written on openacc-slides.pdf (86 pages, 1066520 bytes).
+PDF statistics:
+ 930 PDF objects out of 1000 (max. 8388607)
+ 706 compressed objects within 8 object streams
+ 175 named destinations out of 1000 (max. 500000)
+ 154 words of extra memory for PDF output out of 10000 (max. 10000000)
+
