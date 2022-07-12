@@ -25,6 +25,6 @@ This is a two-day introductory course on "Deep Learning", held at the [CSCS-USI 
 ### Lecturer
 * [Simon Scheidegger](https://sites.google.com/site/simonscheidegger/) (HEC, University of Lausanne)
 
-* [Aryan Efkekhari](https://scholar.google.com/citations?user=GiugKBsAAAAJ&hl=en) (HEC, University of Lausanne)
+* [Aryan Efkekhari](https://sites.google.com/view/eftekhari) (HEC, University of Lausanne)
 
 The lectures will take place over Zoom.
