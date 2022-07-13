@@ -1,7 +1,7 @@
-CXX=CC
+CXX=g++
 CUDA=nvcc
 CXXFLAGS=-O3 -fopenmp
-CUDAFLAGS=-O3 -std=c++11 -arch=sm_60
+CUDAFLAGS=-O3 -std=c++11 -arch=sm_80 # sm_60 for P100
 
 SOURCES = stats.cu  data.cu  operators.cu  linalg.cu    main.cu
 HEADERS = stats.h   data.h   operators.h   linalg.h

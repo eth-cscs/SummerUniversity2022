@@ -1,5 +1,5 @@
 # by default select gcc
-CXX=CC
+CXX=g++
 CXXFLAGS=-O3 -fopenmp
 
 SOURCES = stats.cpp data.cpp operators.cpp linalg.cpp

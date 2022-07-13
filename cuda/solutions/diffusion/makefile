@@ -1,5 +1,5 @@
-FLAGS=-arch=sm_60 -std=c++11 -O2 -lineinfo -I../include
-
+FLAGS=-arch=sm_80 -std=c++11 -O2 -lineinfo -I../include
+#sm_60 for P100
 LINK=-lcublas -lcuda
 
 BENCHMARKS=diffusion2d
