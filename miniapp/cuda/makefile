@@ -34,7 +34,7 @@ main: $(OBJ) main.o
 
 unit_tests: data.o linalg.o unit_tests.o
 	$(CXX) $(CXXFLAGS) unit_tests.o $(OBJ) -o unit_tests -lcublas
-#	srun ./unit_tests                       # run with interactive session
+ 	./unit_tests                       # run with interactive session
 #	srun -Cgpu ./unit_tests                 # run without interactive session
 
 clean:
