@@ -37,6 +37,20 @@
 	\titlepage
 \end{frame}
 
+\section*{Contents}
+\begin{frame}
+	\frametitle{\secname}
+
+	\begin{itemize}
+		\item \mintinline{c++}{auto}
+		\item Type Constraints (Concepts)
+		\item Lambda Expressions
+		\item Structured Bindings
+		\item Range-Based \mintinline{c++}{for}
+		\item Demo / Hands-on: \mintinline{c++}{std::vector}
+	\end{itemize}
+\end{frame}
+
 \section*{\texorpdfstring{\mintinline{c++}{auto}}{auto}}
 \subsection*{Type Deduction (C++11)}
 \begin{frame}[fragile]
@@ -87,7 +101,25 @@
 	\end{minted}
 \end{frame}
 
-\section*{Lambda Expression (C++11)}
+\subsection*{Type Constraints (C++20)}
+\begin{frame}[fragile]
+	\frametitle{\secname: \subsecname}
+
+	\begin{minted}{c++}
+		#include <concepts>
+
+		// OK
+		std::integral auto i = 1;
+
+		// error: deduced type 'double' does not satisfy 'integral'
+		std::integral auto d = 1.;
+
+		// OK
+		std::integral auto c = '1';
+	\end{minted}
+\end{frame}
+
+\section*{Lambda Expressions (C++11)}
 \begin{frame}[fragile]
 	\frametitle{\secname\footnotemark[1]{}}
 	\footnotetext[1]{\url{https://en.cppreference.com/w/cpp/language/lambda}}
@@ -150,7 +182,21 @@
 		// capture what is needed **by reference**
 		auto inc_ab = [&]() { ++a; ++b; };
 	\end{minted}
-	\footnotetext[2]{\url{https://cppinsights.io/s/e49d24b8}}
+	\footnotetext[2]{\url{https://cppinsights.io/s/f493611f}}
+\end{frame}
+
+\begin{frame}[fragile]
+	\frametitle{\secname: \subsecname\footnotemark[1]{}}
+	\footnotetext[1]{\url{https://en.cppreference.com/w/cpp/language/lambda\#Lambda_capture}}
+
+	We can also create new bindings:
+	\begin{minted}{c++}
+		// equivalent to `add_a`
+		auto add_c = [c = a](int x) { return x + c; };
+		// equivalent to `inc_a`
+		auto inc_c = [&c = a]() { ++c; };
+	\end{minted}
+	\footnotetext[2]{\url{https://cppinsights.io/s/f493611f}}
 \end{frame}
 
 \begin{frame}[fragile]
@@ -160,18 +206,18 @@
 		// given
 		int i = 1; char c = '1'; double d = 1.0;
 		// then
-		auto f = [=, &i](auto x) { ++i; return x + d; };
+		auto f = [&, d = d + 1](auto x) { ++i; return x + d; };
 		// is equivalent to
 		class SomeUniqueCompilerGeneratedName {
 			private:
 				int & i; double d;
 			public:
-				SomeUniqueCompilerGeneratedName(int & i, double d) : i(i), d(d) {}
+				SomeUniqueCompilerGeneratedName(int & i, double d) : i{i}, d{d + 1} {}
 				auto operator()(double x) { ++i; return x + d; }
 		};
 		SomeUniqueCompilerGeneratedName f(i, d);
 	\end{minted}
-	\footnotetext[1]{\url{https://cppinsights.io/s/fb34b3e8}}
+	\footnotetext[1]{\url{https://cppinsights.io/s/e2f81bf1}}
 \end{frame}
 
 \subsection*{Cave}
