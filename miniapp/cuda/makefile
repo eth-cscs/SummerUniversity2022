@@ -2,6 +2,7 @@ CXX=g++
 CUDA=nvcc
 CXXFLAGS=-O3 -fopenmp
 CUDAFLAGS=-O3 -std=c++11 -arch=sm_80 # sm_60 for P100
+LDFLAGS=-L/opt/nvidia/hpc_sdk/Linux_x86_64/2022/cuda/lib64 -L/opt/nvidia/hpc_sdk/Linux_x86_64/2022/math_libs/lib64
 
 SOURCES = stats.cu  data.cu  operators.cu  linalg.cu    main.cu
 HEADERS = stats.h   data.h   operators.h   linalg.h
@@ -30,11 +31,11 @@ unit_tests.o: unit_tests.cu $(HEADERS)
 	$(CUDA) $(CUDAFLAGS) -c unit_tests.cu
 
 main: $(OBJ) main.o
-	$(CXX) $(CXXFLAGS) $(OBJ) main.o -o main -lcublas
+	$(CXX) $(CXXFLAGS) $(LDFLAGS) $(OBJ) main.o -o main -lcudart -lcublas
 
 unit_tests: data.o linalg.o unit_tests.o
-	$(CXX) $(CXXFLAGS) unit_tests.o $(OBJ) -o unit_tests -lcublas
- 	./unit_tests                       # run with interactive session
+	$(CXX) $(CXXFLAGS) $(LDFLAGS) unit_tests.o $(OBJ) -o unit_tests -lcudart -lcublas
+	./unit_tests                       # run with interactive session
 #	srun -Cgpu ./unit_tests                 # run without interactive session
 
 clean:
