@@ -1039,7 +1039,7 @@ int main() {
   Source code:
   \begin{itemize}
   \item \shinline{practicals/gemm/gemm.cpp}
-  \item Run as: \shinline{srun --reserv=summer_uni1 -Cgpu ./axpy.openacc [ARRAY\_SIZE]}
+  \item Run as: \shinline{srun --reserv=summer_uni1 -Cgpu ./gemm.openacc [ARRAY\_SIZE]}
     \begin{itemize}
     \item \shinline{ARRAY\_SIZE} is power of 2, default is 8
     \end{itemize}
@@ -1195,7 +1195,7 @@ for (auto i = 0; i < 3; ++i) {
     \begin{itemize}
     \item Support up to OpenACC 2.0; no new features or later spec support
     \item Bug fixes and support for the current implementation only
-    \item From CCE 9.0 onward support will be dropped
+    \item From CCE 9.0 onward support was dropped but is resumed now
     \end{itemize}
   \item GCC
     \begin{itemize}
@@ -1218,7 +1218,7 @@ for (auto i = 0; i < 3; ++i) {
     \begin{itemize}
     \item One week+ of intensive development for porting your code to the GPUs
     \item 3 developers + 2 mentors per team
-    \item Several virtual events scheduled for 2021
+    \item Several in person / virtual events scheduled for 2022
     \item Find the one that fits you and apply!
     \end{itemize}
   \end{itemize}
