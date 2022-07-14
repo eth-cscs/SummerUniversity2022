@@ -81,3 +81,8 @@ binaries compiled for CUDA have a `.cuda` extension.
 salloc -A class06 -C gpu
 srun ./01_Exercise.host
 ```
+
+# Important notes
+
+The lecture slides refer to exercises `05` and `06`. The exercises have been renamed
+to `team_policy` and `team_vector_loop`, respectively.
