@@ -19,14 +19,14 @@ We will be using Slack to post news and links relevant to the event: you should 
 
 ## Link to materials
 
-- CUDA (Day 1, 2 & 3)
-- OpenACC (Day 3 & 4)
-- ISO C++ (Day 4)
+- [CUDA](./cuda) (Day 1, 2 & 3)
+- [OpenACC](./openacc) (Day 3 & 4)
+- [ISO C++](./iso_cpp) (Day 4)
 - [Kokkos](https://github.com/eth-cscs/SummerUniversity2022/tree/main/kokkos) (Day 5)
 - Interactive Supercomputing (Day 6)
 - Python HPC (Day 6)
-- Introduction to Deep Learning (Day 7 & 8)
-- Introduction to Machine Learning and Rapids (Day 9)
+- [Introduction to Deep Learning](./DeepLearningIntro) (Day 7 & 8)
+- [Introduction to Machine Learning and Rapids](./ml_rapids) (Day 9)
 
 ## Obtaining a copy of this repository
 
