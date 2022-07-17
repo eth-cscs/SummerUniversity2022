@@ -14,10 +14,10 @@ def euclidean_trick(x, y):
     (N, N) Euclidean square distance matrix:
     r_ij = (x_ij - y_ij)^2
     """
-    x2 = np.einsum('ij,ij->i', x, x)[:, np.newaxis]
-    y2 = np.einsum('ij,ij->i', y, y)[np.newaxis, :]
+    x2 = (x * x).sum(axis=1)[:, np.newaxis]
+    y2 = (y * y).sum(axis=1)[np.newaxis, :]
 
-    xy = np.dot(x, y.T)
+    xy = x @ y.T
 
     return np.abs(x2 + y2 - 2. * xy)
 
