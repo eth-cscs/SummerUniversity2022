@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <omp.h>
-#include <mpi.h>
+//#include <mpi.h>
 #include "mmio.h"
 
 
@@ -73,7 +73,7 @@ int main(int argc, char *argv[]) {
 	int    * c = NULL; // number of nonzeros per column in G (out-degree)
 	double * z = NULL; //
 
-	double err = 1.e-6;
+	double err = 1.e-9;
 	double norm = 0.0, norm_sq = 0.0, time_start = 0.0;
 	char ch;
 

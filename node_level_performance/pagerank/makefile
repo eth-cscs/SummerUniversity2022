@@ -1,6 +1,6 @@
 CC=gcc
 #CFLAGS=-g -fsanitize=address
-CFLAGS=-O3 
+CFLAGS=-O3 -fno-inline -pg
 
 all: pagerank_csc pagerank_csr
 

@@ -4,10 +4,15 @@
 #include <stdlib.h>
 #include <string.h>
 #include <omp.h>
-#include <mpi.h>
+//#include <mpi.h>
 #include "mmio.h"
 
-void convert_matrix (int , int , double *, int *, int *, int *);
+
+void spmv(int nodes, int* rowptr, int* indices, double* xs, double* G, double* x);
+double dotprod(int nodes, double* z, double* xs);
+double devsq(int nodes, double* x, double* xs);
+void nadd(int nodes, double* x, double norm);
+  void convert_matrix (int , int , double *, int *, int *, int *);
 
 /* This is a serial sparse implementation of PageRank algorithm.
   We are using the Compressed Sparse Row Format (CSR) storage technique
@@ -45,7 +50,7 @@ int main(int argc, char *argv[]) {
 	int    * c = NULL; // number of nonzeros per column in G (out-degree)
 	double * z = NULL; //
 
-	double err = 1.e-6;
+	double err = 1.e-9;
 	double norm = 0.0, norm_sq = 0.0, time_start = 0.0;
 	char ch;
 	char line[21];
@@ -171,32 +176,25 @@ int main(int argc, char *argv[]) {
 	do {
 		// compute x = p*G*D*x
 		memset(x, 0, nodes * sizeof(double)); // set new solution x to 0
-		for (int row = 0; row < nodes; row++) {
-			for (j = rowptr[row]; j < rowptr[row + 1]; j++) {
-				x[row] += G[j] * xs[indices[j]];
-			}
-		}
+		spmv(nodes, rowptr, indices, xs, G, x);
 
 		// x = p*G*D*x + e*(z*x)
-		norm = 0.0;
-		for (i = 0; i < nodes; i++) {
-			norm += z[i] * xs[i];
-		}
+		norm = dotprod(nodes, z, xs);
 
 		// x = p*G*D*x + e*(z*x)
+		nadd(nodes, x, norm);
+		/*
 		for (i = 0; i < nodes; i++) {
 			x[i] = x[i] + norm;
 		}
+		*/
+		norm_sq = devsq(nodes, x, xs);
 
-		norm_sq = 0.0;
-		for (i = 0; i < nodes; i++) {
-			norm_sq += (x[i] - xs[i]) * (x[i] - xs[i]);
-			xs[i] = x[i];
-		}
 		norm = sqrt(norm_sq);
+
 		it += 1;
 	} while (norm > err);
-	printf("[HPC for CSE] %d PageRank iterations with norm of %e computed in %f sec. \n",
+	printf("[HPC for CSE] %d PageRank iterations with norm of %e computed in %.2lf sec. \n",
 	       it, norm, omp_get_wtime() - time_start);
 
 	// ************************************************
@@ -268,3 +266,35 @@ void convert_matrix (int nodes, int nedges, double *G, int *indices, int *colptr
 	free(G1);
 
 }
+
+void spmv(int nodes, int* rowptr, int* indices, double* xs, double* G, double* x) {
+  for (int row = 0; row < nodes; row++) {
+    for (int j = rowptr[row]; j < rowptr[row + 1]; j++) {
+      x[row] += G[j] * xs[indices[j]];
+    }
+  }
+}
+
+double dotprod(int nodes, double* z, double* xs) {
+  double sp = 0.0;
+  for (int i = 0; i < nodes; i++) {
+    sp += z[i] * xs[i];
+  }
+  return sp;
+}
+
+double devsq(int nodes, double* x, double* xs) {
+  double ds = 0.0;
+  for (int i = 0; i < nodes; i++) {
+    ds += (x[i] - xs[i]) * (x[i] - xs[i]);
+    xs[i] = x[i];
+  }
+  return ds;
+}
+
+void nadd(int nodes, double* x, double norm) {
+  for (int i = 0; i < nodes; i++) {
+    x[i] = x[i] + norm;
+  }
+}
+
