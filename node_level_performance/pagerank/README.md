@@ -1,29 +1,21 @@
-Experimenting with SpMV code
+Experimenting with a pagerank implementation
 
-## Building
+## Building 
 
-Running `make` will generate
+The `makefile` is very simple. Running `make` will generate
 
-+ `spmv-omp` OpenMP parallelizied spmv on the CPU,
-+ `spmv-gpu` CUDA implementaiton of spmv for the GPU
++ `pagerank_csr.exe` implementation with CSR matrix storage format
++ `pagerank_csc.exe` implementaion with CSC storage format (for reference)
 
-Build binaries separately:
+The compiler options include `-pg`, which instruments the code for profiling. 
 
-+ `make spmv-omp`
-+ `make spmv-gpu`
-
-By default the CPU binary is built with gcc.
-
-The GPU binary is always built by using `nvcc`.
 
 ## Usage
 
-GPU:
-+ `./spmv-gpu <matrix-file> <matrix-format> <num-elems-per-row>` where `matrix-file` is the matrix market file to perform the SpMV with, `matrix-format` is the matrix format to convert to before performing the SpMV (choices include `csr` and `ell`, defaulting to `csr`). `num-elems-per-row` is the number of elements per row in the matrix that is useful for ell matrix format.
++ `./pagerank_csr.exe <matrixfile>`
 
-CPU/OpenMP:
-+ `./spmv-omp <matrix-file> <matrix-format> <num-elems-per-row>` where `matrix-file` is the matrix market file to perform the SpMV with, `matrix-format` is the matrix format to convert to before performing the SpMV (choices include `csr` and `ell`, defaulting to `csr`). `num-elems-per-row` is the number of elements per row in the matrix that is useful for ell matrix format.
-+ might need to set environment variables accordingly:
-  + `OMP_PROC_BIND=true|close|spread`
-  + `OMP_PLACES=threads|cores|sockets|...`
-  + `OMP_NUM_THREADS=<no. of threads>`
+After program termination, you will see that a file named `gmon.out` was generated in the current directory. It contains profiling information, i.e., how much time was spent in the different functions of the code. In order to read this info, you have to use the `gprof` tool:
+
++ `gprof pagerank_csr.exe`
+
+This will produce a human-readable output with a "flat profile" (this is what we want to look at)  and a "butterfly profile" (which we can ignore here). 
