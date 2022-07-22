@@ -22,4 +22,9 @@ This will produce a human-readable output with a "flat profile" (this is what we
 
 ## Exercise
 
-1. Execute the `pagerank_csr` code 
+1. Log into the Piz Daint frontend. Either start an interactive job or use the `job.sh` script provided.
+2. Execute the `pagerank_csr` code with the following matrices:
+   + `soc-Epinions1.mtx`
+   + `foo.mtx`
+   + `bar.mtx`
+   What is, in general, 
