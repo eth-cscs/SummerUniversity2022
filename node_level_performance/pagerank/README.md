@@ -4,10 +4,10 @@ Experimenting with a pagerank implementation
 
 The `makefile` is very simple. Running `make` will generate
 
-+ `pagerank_csr.exe` implementation with CSR matrix storage format
-+ `pagerank_csc.exe` implementaion with CSC storage format (for reference)
++ `pagerank_csr.exe` implementation with CSR (Compressed Sparse Row) matrix storage format
++ `pagerank_csc.exe` implementation with CSC (Compressed Sparse Column) storage format (for reference)
 
-The compiler options include `-pg`, which instruments the code for profiling. 
+The compiler options include `-pg`, which instruments the code for profiling. Also, function inlining is disabled so you can actually see interesting profiling data.
 
 
 ## Usage
@@ -18,4 +18,8 @@ After program termination, you will see that a file named `gmon.out` was generat
 
 + `gprof pagerank_csr.exe`
 
-This will produce a human-readable output with a "flat profile" (this is what we want to look at)  and a "butterfly profile" (which we can ignore here). 
+This will produce a human-readable output with a "flat profile" (this is what we want to look at)  and a "butterfly profile" (which we can ignore here). The flat profile tells you which functions take most of the execution time.
+
+## Exercise
+
+1. Execute the `pagerank_csr` code 
