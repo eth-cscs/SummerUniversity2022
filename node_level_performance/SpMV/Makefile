@@ -65,7 +65,7 @@ endif
 
 
 NVCC       = nvcc
-NVCCFLAGS += -O3
+NVCCFLAGS += -O3 -arch=sm_60
 NVCCFLAGS += --use_fast_math
 NVCCFLAGS += --fassociative-math --extra-device-vectorization
 NVCCFLAGS += -std=c++14

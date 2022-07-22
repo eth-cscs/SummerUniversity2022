@@ -2,7 +2,6 @@
 #SBATCH --job-name=spmv
 #SBATCH --time=00:05:00
 #SBATCH --nodes=1
-#SBATCH --partition=normal
 #SBATCH --constraint="gpu&perf"
 #SBATCH --account=class07
 
