@@ -10,9 +10,9 @@ The `makefile` is very simple. Running `make` will generate
 The compiler options include `-pg`, which instruments the code for profiling. Also, function inlining is disabled so you can actually see interesting profiling data.
 
 
-## Usage
+## Usage on Piz Daint
 
-+ `./pagerank_csr.exe <matrixfile>`
++ `srun ./pagerank_csr.exe <matrixfile>`
 
 After program termination, you will see that a file named `gmon.out` was generated in the current directory. It contains profiling information, i.e., how much time was spent in the different functions of the code. In order to read this info, you have to use the `gprof` tool:
 
@@ -22,9 +22,10 @@ This will produce a human-readable output with a "flat profile" (this is what we
 
 ## Exercise
 
-1. Log into the Piz Daint frontend. Either start an interactive job or use the `job.sh` script provided.
+1. Log into the Piz Daint frontend. Either start an interactive job (with, e.g., `salloc -N 1 --time=01:00:00`) or use the `job.sh` script provided and modify as needed.
 2. Execute the `pagerank_csr` code with the following matrices:
    + `soc-Epinions1.mtx`
    + `foo.mtx`
    + `bar.mtx`
-   What is, in general, 
+   What is, in general, the execution "hot spot," i.e., which function takes most of the runtime?
+3. Parallelize
