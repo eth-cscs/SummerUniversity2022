@@ -1,13 +1,13 @@
 Experimenting with SpMV code
 
-This exercise lets youe experiment with a CUDA GPU implementation of sparse matrix-vector multiplication on the GPUs of Piz Daint (NVIDIA P100).
+This exercise lets you experiment with a CUDA GPU implementation of sparse matrix-vector multiplication on the GPUs of Piz Daint (NVIDIA P100).
 
 ## Building
 
 First, run `source ./modules.sh` in the SpMV folder. After that, running `make` will generate
 
 + `spmv-omp` OpenMP-parallelizied spmv on the CPU,
-+ `spmv-gpu` CUDA implementaiton of spmv for the GPU
++ `spmv-gpu` CUDA implementation of spmv for the GPU
 
 Build binaries separately:
 
@@ -26,7 +26,7 @@ The GPU binary is always built by using `nvcc`.
   - `-s <S>` specify sorting range sigma for SELL-C-sigma
   - `-dp` use double precision
   - `-sp` use single precision
-  - `-no-verify` do not run result verfication
+  - `-no-verify` do not run result verification
     
 ## Testing
 + Example
@@ -52,10 +52,10 @@ We want to know which matrices are "good" or "bad" on the GPU, i.e., which make 
 + **Questions:**
 
 1. Is CSR anywhere near competitive for any of the matrices?
-  2. For whch matrices is a larger sigma required to get better performance? Can you imagine why?
+  2. For which matrices is a larger sigma required to get better performance? Can you imagine why?
 + From performance measurements alone we cannot determine the actual memory bandwidth taken by the kernel or its actual code balance. We need a tool that gives us the memory bandwidth. The NVIDIA `nvprof` profiler can do this.
   - To use the profiler, instead of running the binary directly you run it with `nvprof` as a wrapper: `nvprof -m <metric> ./spmv-gpu <whatever>`
-  - Many metrics are possible. This is a list of inetersting metrics to consider:
+  - Many metrics are possible. This is a list of interesting metrics to consider:
     - `dram_read_bytes`:  Total bytes read from DRAM to L2 cache
     - `dram_write_bytes`:  Total bytes written from L2 cache to DRAM
     - `dram_read_throughput`:  Device memory read throughput
@@ -64,8 +64,8 @@ We want to know which matrices are "good" or "bad" on the GPU, i.e., which make 
     - `l2_write_throughput`:  Memory write throughput seen at L2 cache for all write requests
     - `achieved_occupancy`:  Ratio of the average active warps per active cycle to the maximum number of warps supported on a multiprocessor
   - Example: `nvprof -m dram_read_throughput ./spmv-gpu $MATRICES/HPCG-192-192-192.bmtx scs -dp -c 32 -s 32 -no-verify`
-  - The profiler gives you the metric _per kernel invocation_ as an average, minimum, and maximum value. **Important**: With the proviler active, the performance of the code is much reduced, so you won't get a proper performance reading from the code itself.
-+ **Further qustions:**
+  - The profiler gives you the metric _per kernel invocation_ as an average, minimum, and maximum value. **Important**: With the profiler active, the performance of the code is much reduced, so you won't get a proper performance reading from the code itself.
++ **Further questions:**
 
 3. What is the actual (measured) code balance of SpMV when running the following  matrices? Does it agree with the output of the benchmark?
     - `random4M10`
