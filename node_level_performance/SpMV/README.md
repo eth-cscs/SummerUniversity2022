@@ -50,7 +50,8 @@ We want to know which matrices are "good" or "bad" on the GPU, i.e., which make 
   - qcd5_4
   - com-Orkut
 + **Questions:**
-  1. Is CSR anywhere near competitive for any of the matrices?
+
+1. Is CSR anywhere near competitive for any of the matrices?
   2. For whch matrices is a larger sigma required to get better performance? Can you imagine why?
 + From performance measurements alone we cannot determine the actual memory bandwidth taken by the kernel or its actual code balance. We need a tool that gives us the memory bandwidth. The NVIDIA `nvprof` profiler can do this.
   - To use the profiler, instead of running the binary directly you run it with `nvprof` as a wrapper: `nvprof -m <metric> ./spmv-gpu <whatever>`
@@ -65,7 +66,8 @@ We want to know which matrices are "good" or "bad" on the GPU, i.e., which make 
   - Example: `nvprof -m dram_read_throughput ./spmv-gpu $MATRICES/HPCG-192-192-192.bmtx scs -dp -c 32 -s 32 -no-verify`
   - The profiler gives you the metric _per kernel invocation_ as an average, minimum, and maximum value. **Important**: With the proviler active, the performance of the code is much reduced, so you won't get a proper performance reading from the code itself.
 + **Further qustions:**
-  3. What is the actual (measured) code balance of SpMV when running the following  matrices? Does it agree with the output of the benchmark?
+
+3. What is the actual (measured) code balance of SpMV when running the following  matrices? Does it agree with the output of the benchmark?
     - `random4M10`
     - `DLR1`
   4. How well do these two matrices utilize the memory bandwidth?
