@@ -90,7 +90,7 @@ endif
 REBUILD_DEPS = $(MAKEFILE_LIST) spmv.h vectors.h mtx-reader.h
 
 .PHONY: all
-all:omp
+all: gpu omp
 
 .PHONY: omp gpu
 omp: spmv-omp
